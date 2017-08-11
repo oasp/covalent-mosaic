@@ -32,7 +32,6 @@
       <md-icon svgIcon="assets:github"></md-icon>
     </a>
   </div>
-
   <!-- XS -> 1col -->
   <div layout-xs="row" tdMediaToggle="xs" [mediaClasses]="['push-xs']" hide-gt-xs>
     <div flex="100">
@@ -42,7 +41,7 @@
     </div>
   </div>
 
-  <!-- MD -> 2col -->
+  <!-- GT-XS -> 2col -->
   <div layout-gt-xs="row" tdMediaToggle="gt-xs" [mediaClasses]="['push-xs']" hide-xs hide-gt-md>
     <div flex="50">
       <div *ngFor="let article of getColumn(0, 2)">
@@ -56,7 +55,7 @@
     </div>
   </div>
 
-  <!-- LG -> 3col -->
+  <!-- GT-SM -> 3col -->
   <div layout-gt-sm="row" tdMediaToggle="gt-sm" [mediaClasses]="['push-sm']" hide-xs hide-md hide-gt-lg>
     <div flex="33">
       <div *ngFor="let article of getColumn(0, 3)">
