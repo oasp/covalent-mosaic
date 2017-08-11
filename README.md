@@ -1,6 +1,5 @@
-# Covalent QuickStart
-
-Quickstart App with @covalent packages
+# Covalent mosaic 
+ Mosaic template with @covalent packages
 
 ## Setup
 
