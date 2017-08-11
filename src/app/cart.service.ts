@@ -50,26 +50,5 @@ export class CartService {
   public getItems(): any {
     return this.itemArray;
   }
-  /**
-   * Remove item from the cart
-   * @param {Item[]} itemArray
-   * @param {string} itemUrl
-   * @returns {*}
-   * @memberof CartService
-   */
-  // public removeItem(itemArray: Item[], itemUrl: string): any {
-  //   let items: Item[] = itemArray;
-  //   let itemsAux: Item[] = [];
-  //   for (let i: number = 0; i < items.length; i++) {
-  //     if (itemUrl === items[i].url) {
-  //       let index: number = i;
-  //       items[i].count = 0;
-  //       items.splice(i, 1);
 
-  //     } else {
-  //       itemsAux.push(items[i]);
-  //     }
-  //   }
-  //   return itemsAux;
-  // }
 }
